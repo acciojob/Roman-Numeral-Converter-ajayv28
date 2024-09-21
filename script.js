@@ -21,7 +21,7 @@ function convertToRoman(num) {
 		const[symbol, val] = arr[i];
 		while(num>=val){
 			str += symbol;
-			num -= value;
+			num -= val;
 		}
 	}
 	return str;
